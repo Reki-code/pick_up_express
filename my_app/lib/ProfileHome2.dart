@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:data_plugin/bmob/bmob_query.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' as prefix0;
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 import 'package:my_app/DatabaseHandler.dart';
 import 'package:my_app/Modal.dart';
@@ -135,15 +136,26 @@ class UserInfo extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            Container(
-                              margin: EdgeInsets.only(top: 40.0),
-                              child: Center(
-                                child: Text(
-                                  user.username ?? '',
-                                  style: TextStyle(
-                                      fontSize: 30.0, color: Colors.white),
+                            GestureDetector(
+                              child: Container(
+                                margin: EdgeInsets.only(top: 40.0),
+                                child: Center(
+                                  child: Text(
+                                    user.username ?? '',
+                                    style: TextStyle(
+                                        fontSize: 30.0, color: Colors.white),
+                                  ),
                                 ),
                               ),
+                                onTap: (){
+                                  var textController = TextEditingController();
+                                  showEditDialog(context, '修改用户名', () {
+                                    user.username = textController.text;
+                                    User()
+                                      ..username = textController.text
+                                      ..save();
+                                  }, textController);
+                                }
                             ),
                             Container(
                               margin: EdgeInsets.only(top: 100.0),
@@ -193,35 +205,68 @@ class UserInfo extends StatelessWidget {
                                     Divider(
                                       color: Colors.black38,
                                     ),
-                                    ListTile(
-                                      contentPadding: EdgeInsets.symmetric(
-                                          horizontal: 12.0, vertical: 4.0),
-                                      leading: Icon(Icons.email,
-                                        color: Colors.white,),
-                                      title: Text('电子邮箱',
-                                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
-                                      subtitle: Text(user.email ?? '',
-                                        style: TextStyle(color: Colors.white70),),
+                                    GestureDetector(
+                                      child: ListTile(
+                                        contentPadding: EdgeInsets.symmetric(
+                                            horizontal: 12.0, vertical: 4.0),
+                                        leading: Icon(Icons.email,
+                                          color: Colors.white,),
+                                        title: Text('电子邮箱',
+                                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                                        subtitle: Text(user.email ?? '',
+                                          style: TextStyle(color: Colors.white70),),
+                                      ),
+                                      onTap: (){
+                                        var textController = TextEditingController();
+                                        showEditDialog(context, '修改电子邮箱', () {
+                                          user.email = textController.text;
+                                          User()
+                                            ..email = textController.text
+                                            ..save();
+                                        }, textController);
+                                      }
                                     ),
-                                    ListTile(
-                                      contentPadding: EdgeInsets.symmetric(
-                                          horizontal: 12.0, vertical: 4.0),
-                                      leading: Icon(Icons.phone,
-                                        color: Colors.white,),
-                                      title: Text('电话',
-                                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
-                                      subtitle: Text(user.mobilePhoneNumber ?? '',
-                                        style: TextStyle(color: Colors.white70),),
+                                    GestureDetector(
+                                      child: ListTile(
+                                        contentPadding: EdgeInsets.symmetric(
+                                            horizontal: 12.0, vertical: 4.0),
+                                        leading: Icon(Icons.phone,
+                                          color: Colors.white,),
+                                        title: Text('电话',
+                                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                                        subtitle: Text(user.mobilePhoneNumber ?? '',
+                                          style: TextStyle(color: Colors.white70),),
+                                      ),
+                                        onTap: (){
+                                          var textController = TextEditingController();
+                                          showEditDialog(context, '修改电话', () {
+                                            user.mobilePhoneNumber = textController.text;
+                                            User()
+                                              ..mobilePhoneNumber = textController.text
+                                              ..save();
+                                          }, textController);
+                                        }
                                     ),
-                                    ListTile(
-                                      contentPadding: EdgeInsets.symmetric(
-                                          horizontal: 12.0, vertical: 4.0),
-                                      leading: Icon(Icons.location_on,
-                                      color: Colors.white,),
-                                      title: Text('地址',
-                                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
-                                      subtitle: Text(user.address ?? '',
-                                        style: TextStyle(color: Colors.white70),),
+                                    GestureDetector(
+                                      child: ListTile(
+                                        contentPadding: EdgeInsets.symmetric(
+                                            horizontal: 12.0, vertical: 4.0),
+                                        leading: Icon(Icons.location_on,
+                                        color: Colors.white,),
+                                        title: Text('地址',
+                                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                                        subtitle: Text(user.address ?? '',
+                                          style: TextStyle(color: Colors.white70),),
+                                      ),
+                                        onTap: (){
+                                          var textController = TextEditingController();
+                                          showEditDialog(context, '修改地址', () {
+                                            user.address = textController.text;
+                                            User()
+                                              ..address = textController.text
+                                              ..save();
+                                          }, textController);
+                                        }
                                     ),
                                   ],
                                 ),
@@ -261,6 +306,45 @@ class UserInfo extends StatelessWidget {
       completer.complete(user);
     });
     return completer.future;
+  }
+
+  void setCurUser() {
+
+  }
+  
+  showEditDialog(BuildContext context, String title, Function edit, TextEditingController textEditingController) {
+    showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text(title),
+            content: StatefulBuilder(
+              builder: (context, setState) {
+                return Container(
+                  child: TextFormField(
+                    controller: textEditingController,
+                  ),
+                );
+              },
+            ),
+            actions: <Widget>[
+              FlatButton(
+                child: Text('修改'),
+                onPressed: () {
+                  edit();
+                  Navigator.of(context).pop();
+                },
+              ),
+              FlatButton(
+                child: Text('取消'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              )
+            ],
+          );
+        }
+    );
   }
 }
 

@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7979bdb1-c6d1-4dab-9930-720f75f735e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my_app/lib/NewHelp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/NewHelp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp.iws" beforeDir="false" afterPath="$PROJECT_DIR$/myApp.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/ProfileHome2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/ProfileHome2.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +194,7 @@
       <workItem from="1570378899508" duration="1083000" />
       <workItem from="1570380532203" duration="1043000" />
       <workItem from="1570381770662" duration="1325000" />
-      <workItem from="1570418562468" duration="281000" />
+      <workItem from="1570418562468" duration="2397000" />
     </task>
     <task id="LOCAL-00001" summary="实现ui和bmob集成">
       <created>1570382601292</created>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570382601293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复订单时间选择">
+      <created>1570419072706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570419072706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现ui和bmob集成" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现ui和bmob集成" />
+    <MESSAGE value="修复订单时间选择" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复订单时间选择" />
   </component>
 </project>
