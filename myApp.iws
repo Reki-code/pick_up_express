@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7979bdb1-c6d1-4dab-9930-720f75f735e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/my_app/lib/NewHelp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/NewHelp.dart" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/my_app/lib/main.dart" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1RNKUUfnfeDLo1a7B50DRJKejXU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-hdpi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-xhdpi" />
+      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-mdpi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/my_app/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7979bdb1-c6d1-4dab-9930-720f75f735e5" name="Default Changelist" comment="" />
+      <created>1569502787915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569502787915</updated>
+      <workItem from="1569502970553" duration="268000" />
+      <workItem from="1569503374955" duration="2147000" />
+      <workItem from="1569506023331" duration="1425000" />
+      <workItem from="1569580943603" duration="4698000" />
+      <workItem from="1569585954542" duration="5382000" />
+      <workItem from="1569592023413" duration="1951000" />
+      <workItem from="1569639916002" duration="3970000" />
+      <workItem from="1569644765081" duration="3233000" />
+      <workItem from="1569648209109" duration="5155000" />
+      <workItem from="1569653658918" duration="528000" />
+      <workItem from="1569658046944" duration="232000" />
+      <workItem from="1569658865522" duration="1389000" />
+      <workItem from="1569660962629" duration="2973000" />
+      <workItem from="1569664946329" duration="2436000" />
+      <workItem from="1569667482315" duration="19000" />
+      <workItem from="1569667714047" duration="333000" />
+      <workItem from="1569668422731" duration="1413000" />
+      <workItem from="1569670068527" duration="128000" />
+      <workItem from="1569670306045" duration="520000" />
+      <workItem from="1569671100208" duration="292000" />
+      <workItem from="1569671670786" duration="759000" />
+      <workItem from="1569672717734" duration="1083000" />
+      <workItem from="1569677806663" duration="1232000" />
+      <workItem from="1569756948697" duration="457000" />
+      <workItem from="1569758702216" duration="635000" />
+      <workItem from="1569760456954" duration="835000" />
+      <workItem from="1569762879261" duration="797000" />
+      <workItem from="1569763778625" duration="911000" />
+      <workItem from="1569764999484" duration="3920000" />
+      <workItem from="1569810147265" duration="442000" />
+      <workItem from="1569810789040" duration="2021000" />
+      <workItem from="1569815153451" duration="804000" />
+      <workItem from="1569817331621" duration="710000" />
+      <workItem from="1569819253667" duration="627000" />
+      <workItem from="1569819997924" duration="250000" />
+      <workItem from="1569932195155" duration="139000" />
+      <workItem from="1569935006399" duration="926000" />
+      <workItem from="1569936173932" duration="2767000" />
+      <workItem from="1570014297692" duration="2758000" />
+      <workItem from="1570017250329" duration="59000" />
+      <workItem from="1570017463442" duration="899000" />
+      <workItem from="1570074894116" duration="2982000" />
+      <workItem from="1570080110930" duration="3255000" />
+      <workItem from="1570083636624" duration="131000" />
+      <workItem from="1570084560339" duration="236000" />
+      <workItem from="1570086191364" duration="65000" />
+      <workItem from="1570086522335" duration="471000" />
+      <workItem from="1570088873475" duration="86000" />
+      <workItem from="1570089003516" duration="38000" />
+      <workItem from="1570089239005" duration="262000" />
+      <workItem from="1570104384786" duration="813000" />
+      <workItem from="1570105283860" duration="76000" />
+      <workItem from="1570105711598" duration="177000" />
+      <workItem from="1570106130082" duration="430000" />
+      <workItem from="1570107209719" duration="160000" />
+      <workItem from="1570107829142" duration="78000" />
+      <workItem from="1570108183489" duration="128000" />
+      <workItem from="1570108907641" duration="403000" />
+      <workItem from="1570109497091" duration="175000" />
+      <workItem from="1570110162578" duration="355000" />
+      <workItem from="1570165898880" duration="2077000" />
+      <workItem from="1570168169079" duration="3073000" />
+      <workItem from="1570171365111" duration="275000" />
+      <workItem from="1570172188739" duration="269000" />
+      <workItem from="1570172741848" duration="855000" />
+      <workItem from="1570179094907" duration="2814000" />
+      <workItem from="1570182080497" duration="233000" />
+      <workItem from="1570182473838" duration="257000" />
+      <workItem from="1570183259954" duration="212000" />
+      <workItem from="1570185589528" duration="91000" />
+      <workItem from="1570187426852" duration="179000" />
+      <workItem from="1570187962818" duration="240000" />
+      <workItem from="1570188790469" duration="800000" />
+      <workItem from="1570189821711" duration="393000" />
+      <workItem from="1570190550602" duration="156000" />
+      <workItem from="1570191251314" duration="326000" />
+      <workItem from="1570194949969" duration="396000" />
+      <workItem from="1570195429570" duration="93000" />
+      <workItem from="1570196289707" duration="571000" />
+      <workItem from="1570267488453" duration="971000" />
+      <workItem from="1570268886587" duration="474000" />
+      <workItem from="1570269459705" duration="230000" />
+      <workItem from="1570269821073" duration="306000" />
+      <workItem from="1570270423128" duration="285000" />
+      <workItem from="1570270819344" duration="562000" />
+      <workItem from="1570272336781" duration="212000" />
+      <workItem from="1570272924072" duration="225000" />
+      <workItem from="1570273285657" duration="664000" />
+      <workItem from="1570274164161" duration="104000" />
+      <workItem from="1570274702906" duration="48000" />
+      <workItem from="1570348548711" duration="1668000" />
+      <workItem from="1570351050898" duration="1488000" />
+      <workItem from="1570352682572" duration="597000" />
+      <workItem from="1570353404687" duration="120000" />
+      <workItem from="1570353688954" duration="167000" />
+      <workItem from="1570359065514" duration="303000" />
+      <workItem from="1570360031170" duration="663000" />
+      <workItem from="1570360869391" duration="325000" />
+      <workItem from="1570361541563" duration="860000" />
+      <workItem from="1570363408794" duration="19000" />
+      <workItem from="1570363545008" duration="694000" />
+      <workItem from="1570364434868" duration="675000" />
+      <workItem from="1570365338387" duration="1650000" />
+      <workItem from="1570367371572" duration="3483000" />
+      <workItem from="1570371247884" duration="2393000" />
+      <workItem from="1570378899508" duration="1083000" />
+      <workItem from="1570380532203" duration="1043000" />
+      <workItem from="1570381770662" duration="1325000" />
+      <workItem from="1570418562468" duration="281000" />
+    </task>
+    <task id="LOCAL-00001" summary="实现ui和bmob集成">
+      <created>1570382601292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570382601293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现ui和bmob集成" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现ui和bmob集成" />
+  </component>
+</project>

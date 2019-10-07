@@ -101,7 +101,7 @@ class NewHelpFormState extends State<NewHelpForm> {
               child: Column(
                 children: <Widget>[
                   Text(
-                    '快递信息',
+                    '快递信息:',
                     maxLines: 1,
                     textAlign: TextAlign.center,
                   ),
@@ -188,6 +188,10 @@ class NewHelpFormState extends State<NewHelpForm> {
                     ],
                   ),
                   DateTimeField(
+                    decoration: InputDecoration(
+                      labelText: '预约时间',
+                      hintText: '可不填'
+                    ),
                     enabled: appointed == '另约',
                     onChanged: (t) {
                       setState(() {
