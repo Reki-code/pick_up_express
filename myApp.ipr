@@ -158,6 +158,13 @@
               </list>
             </value>
           </entry>
+          <entry key="image_picker">
+            <value>
+              <list>
+                <option value="$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/image_picker-0.6.1+4/lib" />
+              </list>
+            </value>
+          </entry>
           <entry key="intl">
             <value>
               <list>
@@ -332,6 +339,7 @@
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_spinkit-1.1.0/lib" />
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-3.1.3/lib" />
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/image-2.1.4/lib" />
+        <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/image_picker-0.6.1+4/lib" />
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/intl-0.15.8/lib" />
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/json_annotation-2.4.0/lib" />
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/matcher-0.12.5/lib" />
@@ -392,6 +400,7 @@
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3" />
         <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-3.1.3" />
         <root url="file://$PROJECT_DIR$/my_app/bmob-flutter-sdk/data_plugin" />
+        <root url="file://$USER_HOME$/flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/image_picker-0.6.1+4" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

@@ -15,28 +15,18 @@ class HelpEachOtherInfo extends StatelessWidget {
         children: <Widget>[
           const ListTile(
             leading: Icon(Icons.access_time),
-            title: Text(
-              'The Enchanted Nightingale',
-              style: TextStyle(color: Colors.black, fontSize: 40),
-            ),
-            subtitle: Text(
-              'Music by Julie Gable. Lyrics by Sidney Steni.',
-              style: TextStyle(color: Colors.yellow, fontSize: 16.0),
-            ),
             contentPadding: EdgeInsets.all(20.0),
           ),
           ButtonTheme.bar(
             child: ButtonBar(
               children: <Widget>[
                 FlatButton.icon(
-                    onPressed: () {
-                      
-                    }, 
-                    icon: Icon(Icons.settings_ethernet),
-                    label: Text(
-                      '帮取',
-                      style: TextStyle(color: Colors.black, fontSize: 14.0),
-                    ),
+                  onPressed: () {},
+                  icon: Icon(Icons.settings_ethernet),
+                  label: Text(
+                    '帮取',
+                    style: TextStyle(color: Colors.black, fontSize: 14.0),
+                  ),
                 ),
               ],
             ),

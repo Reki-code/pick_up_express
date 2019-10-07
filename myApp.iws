@@ -6,9 +6,27 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7979bdb1-c6d1-4dab-9930-720f75f735e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_app/android/app/proguard-rules.pro" afterDir="false" />
+    <list default="true" id="7979bdb1-c6d1-4dab-9930-720f75f735e5" name="Default Changelist" comment="优化文件结构">
+      <change afterPath="$PROJECT_DIR$/my_app/lib/auth/Singup.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/data/Modal.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/exp/HelpDetail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/lib/exp/NewHelp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/myApp.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myApp.iws" beforeDir="false" afterPath="$PROJECT_DIR$/myApp.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/Announcement.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/announcement/Announcement.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/Auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/auth/Auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/DatabaseHandler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/data/DatabaseHandler.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/HelpDetail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/auth/Login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/HelpEachOther.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/exp/HelpEachOther.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/Home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/Modal.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/NewHelp.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/ProfileHome.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/ProfileHome2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/profile/ProfileHome.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/SquareHome.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/announcement/SquareHome.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,15 +65,18 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-hdpi" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-xxxhdpi" />
       <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-xxhdpi" />
       <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-xhdpi" />
       <recent name="$PROJECT_DIR$/my_app/android/app/src/main/res/mipmap-mdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_app/lib/announcement" />
+      <recent name="$PROJECT_DIR$/my_app/lib/exp" />
+      <recent name="$PROJECT_DIR$/my_app/lib/profile" />
+      <recent name="$PROJECT_DIR$/my_app/lib/data" />
+      <recent name="$PROJECT_DIR$/my_app/lib/auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,6 +218,13 @@
       <workItem from="1570418562468" duration="2397000" />
       <workItem from="1570421259796" duration="1347000" />
       <workItem from="1570423064147" duration="24000" />
+      <workItem from="1570436334148" duration="158000" />
+      <workItem from="1570437377057" duration="109000" />
+      <workItem from="1570438098200" duration="32000" />
+      <workItem from="1570438407971" duration="834000" />
+      <workItem from="1570439785520" duration="106000" />
+      <workItem from="1570440167959" duration="95000" />
+      <workItem from="1570448185429" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="实现ui和bmob集成">
       <created>1570382601292</created>
@@ -219,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570421413972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修复信息保存">
+      <created>1570436485624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570436485625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +277,8 @@
     <MESSAGE value="实现ui和bmob集成" />
     <MESSAGE value="修复订单时间选择" />
     <MESSAGE value="support edit user information" />
-    <option name="LAST_COMMIT_MESSAGE" value="support edit user information" />
+    <MESSAGE value="修复信息保存" />
+    <MESSAGE value="优化文件结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化文件结构" />
   </component>
 </project>

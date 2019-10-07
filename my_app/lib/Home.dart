@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'NewHelp.dart';
-import 'ProfileHome2.dart';
-import 'SquareHome.dart';
+import 'package:my_app/exp/NewHelp.dart';
+import 'package:my_app/profile/ProfileHome.dart';
+import 'package:my_app/announcement/SquareHome.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -11,9 +10,10 @@ class Home extends StatefulWidget {
 }
 
 class _Home extends State<Home> {
-  final homeList = [SquareHome(), ProfileHome2()];
+  final homeList = [SquareHome(), ProfileHome()];
   int curIndex = 0;
   var iconOpacity = [1.0, 0.45];
+
   void onTap(int index) {
     setState(() {
       curIndex = index;
@@ -33,7 +33,7 @@ class _Home extends State<Home> {
 
     return Scaffold(
       extendBody: true,
-    //body: homeList[curIndex],
+      //body: homeList[curIndex],
       body: IndexedStack(
         index: curIndex,
         children: homeList,

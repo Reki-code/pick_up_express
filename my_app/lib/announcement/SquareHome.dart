@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/Announcement.dart';
+import 'package:my_app/announcement/Announcement.dart';
 
 class SquareHome extends StatefulWidget {
   const SquareHome() : super();
