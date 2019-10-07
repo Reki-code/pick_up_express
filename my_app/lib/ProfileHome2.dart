@@ -152,6 +152,7 @@ class UserInfo extends StatelessWidget {
                                   showEditDialog(context, '修改用户名', () {
                                     user.username = textController.text;
                                     User()
+                                      ..objectId = user.objectId
                                       ..username = textController.text
                                       ..save();
                                   }, textController);
@@ -221,6 +222,7 @@ class UserInfo extends StatelessWidget {
                                         showEditDialog(context, '修改电子邮箱', () {
                                           user.email = textController.text;
                                           User()
+                                            ..objectId = user.objectId
                                             ..email = textController.text
                                             ..save();
                                         }, textController);
@@ -242,6 +244,7 @@ class UserInfo extends StatelessWidget {
                                           showEditDialog(context, '修改电话', () {
                                             user.mobilePhoneNumber = textController.text;
                                             User()
+                                              ..objectId = user.objectId
                                               ..mobilePhoneNumber = textController.text
                                               ..save();
                                           }, textController);
@@ -263,6 +266,7 @@ class UserInfo extends StatelessWidget {
                                           showEditDialog(context, '修改地址', () {
                                             user.address = textController.text;
                                             User()
+                                              ..objectId = user.objectId
                                               ..address = textController.text
                                               ..save();
                                           }, textController);
@@ -329,18 +333,19 @@ class UserInfo extends StatelessWidget {
             ),
             actions: <Widget>[
               FlatButton(
+                color: Colors.grey,
+                child: Text('取消'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+              FlatButton(
                 child: Text('修改'),
                 onPressed: () {
                   edit();
                   Navigator.of(context).pop();
                 },
               ),
-              FlatButton(
-                child: Text('取消'),
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-              )
             ],
           );
         }
